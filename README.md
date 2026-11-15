@@ -52,16 +52,16 @@ The `ztig` CLI provides discoverable subcommands with built-in help:
 
 ```bash
 # Display help menu
-node packages/cli/dist/cli.js --help
+pnpm ztig --help
 
 # Initialize a new ztig.json graph
-node packages/cli/dist/cli.js init
+pnpm ztig init
 
 # Inspect existing nodes, invariants, and edges
-node packages/cli/dist/cli.js inspect
+pnpm ztig inspect
 
 # Evaluate pull request changes against the intent graph
-node packages/cli/dist/cli.js evaluate-drift --base origin/main --fail-on-drift=true
+pnpm ztig evaluate-drift --base origin/main --fail-on-drift=true
 ```
 
 ## GitHub Actions CI/CD Integration

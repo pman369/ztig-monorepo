@@ -12,7 +12,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "vitest run"
+    "test": "vitest run",
+    "ztig": "node ./dist/cli.js"
   },
   "dependencies": {
     "@ztig/core": "workspace:*",
